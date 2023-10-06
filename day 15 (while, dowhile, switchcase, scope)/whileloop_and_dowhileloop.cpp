@@ -4,7 +4,7 @@
     initialize
     break(i.e. condition checking)
     update
-
+    
 */
 
 /*** 1> Print 1 to 10 using while loop ***/
