@@ -1,5 +1,5 @@
 /*
-    Day 5/180: For Loop in advance
+    Day 5/180 : For Loop in advance
 
     1> Print number from 280 to 250 with the help of for loop.
     2> Print char from ‘A’ to ‘Z’ with the help of a for loop.
