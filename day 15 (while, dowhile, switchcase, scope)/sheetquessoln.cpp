@@ -354,5 +354,5 @@ int main(){
     else
         cout<<"Not Prime";
 
-    return 0;
+    return 0 ;
 }
