@@ -1,0 +1,17 @@
+* The pow() function is used to calculate the power of any given number.
+
+* Syntax for pow() Function in C:    double pow(double x, double y);
+
+* Parameters for pow() in C:
+  The pow() function takes two integer arguments x and y.
+
+    i> x: The variable x represents the base value, whose power needs to be calculated. It is of the type double.
+    ii> y: The variable y represents the exponent value. It is of the type double.
+
+
+* Return Values for pow() Function in C : 
+  The pow() function returns the value x^y (x raised to the power y) where x and y are two variables of type double.
+  The return type is double.
+
+
+// more about pow function: https://www.scaler.com/topics/pow-function-in-c/
