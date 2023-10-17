@@ -85,7 +85,6 @@
 // }
 
 
-
 /*** 5>: Solve the expression according to the precedence table.***/
 /*
     i> 2*3-48==5/4*6
@@ -114,3 +113,28 @@
      => 0        warning: right shift count >= width of type
 
 */
+
+
+/***
+    Write a program where the user is asked to enter two integers(divisor and dividend) and
+    the quotient and the remainder of their divison is computed. 
+    (Both divisor and dividend shiuld be integers.)
+***/
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int divisor,dividend,remainder,quotient;
+    
+//     cout<<"Enter the value of divisor";
+//     cin>>divisor;
+
+//     cout<<"Enter the value of dividend";
+//     cin>>dividend;
+
+//     remainder = dividend % divisor;
+//     quotient = dividend / divisor;
+
+//     cout<<remainder<<" "<<quotient;
+    
+// }
