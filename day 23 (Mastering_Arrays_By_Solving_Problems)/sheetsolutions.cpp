@@ -1,4 +1,38 @@
 /***
+    Q1> Smallest Positive missing number
+    
+    Link : https://practice.geeksforgeeks.org/problems/smallest-positive-missing-number-1587115621/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab
+ 
+***/
+
+//Function to find the smallest positive number missing from the array.
+int missingNumber(int arr[], int n) 
+{ 
+    // Your code here
+    sort(arr, arr+n);
+        
+    int ans = 1; //Positive number starts from 1.
+        
+    for(int i=0; i<n; i++){
+            
+        // check current +ve number is present in array
+        // if the condition false means it is not present in the array, means it is the missing no.
+        // if the condition true means it is present in the array
+        if(arr[i] == ans){
+                
+            //if the current +ve number is present in array 
+            // go to the next +ve number and check for it
+            ans++;
+                
+        }
+    }
+        
+    return ans;
+} 
+
+
+
+/***
     Q2> Move all negative elements to end
 
         Logic : * create a temp array of n size
@@ -136,6 +170,8 @@ int getCount(int arr[], int n, int num1, int num2)
         
 }
 
+
+
 /***
   Q5> First Repeating Element
   Link : https://practice.geeksforgeeks.org/problems/first-repeating-element4018/1?utm_source=geeksforgeeks&utm_medium=article_practice_tab&utm_campaign=article_practice_tab
@@ -168,6 +204,7 @@ int firstRepeated(int arr[], int n) {
     // Expected Time Complexity: O(n)
     // Expected Auxilliary Space: O(n)
 }
+
 
 
 /***
